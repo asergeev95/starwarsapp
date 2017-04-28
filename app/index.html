@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html ng-app = "starWarsApp">
+<head>
+	<meta charset="UTF-8">
+	<title>StarWars App</title>
+
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="css/grid.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/ngDialog.css">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/ngDialog-theme-default.css">
+    <link rel="stylesheet" href="css/ngDialog-theme-plain.css">
+    <link rel="stylesheet" href="css/ngDialog-custom-width.css">
+
+
+	  <style>
+        a, button {
+            font: 14px 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+            display: block;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        /* The following 'important' styles are just here to show off trapFocus */
+        button.ngdialog-button {
+            border: solid transparent 1px !important;
+        }
+
+        button.ngdialog-button:focus {
+            border: solid black 1px !important;
+        }
+
+        .ngdialog h2:focus { outline: none; }
+
+        button.inline {
+            display: inline
+        }
+    </style>
+	
+	
+
+</head>
+<body ng-controller = "StarCtrl as SC">
+
+<div class="jumbotron">
+  <h1>STARWARS UNIVERSE :)</h1>
+ </div>
+
+
+<div class="jumbotron" >
+
+
+	<ul class="nav nav-pills nav-justified">
+	  <li ng-class="{'active': SC.selectedGender=== 'male'}" ng-click="SC.setGender('male')"><a href>Choose men</a></li>
+	  <li ng-class="{'active': SC.selectedGender=== 'female'}" ng-click="SC.setGender('female')"><a href>Choose women</a></li>
+	 
+	</ul>
+
+	<br>
+	<br>
+	
+
+	<div class="container">
+		<div class="row"  >
+			<div class="col-md-6" ng-repeat = "human in SC.people" ng-show = "SC.showPeople(human.gender)">
+				<a href ng-click= "SC.selectPerson(human.url)" 
+					<p>Gender: {{human.gender}}</p>
+					<p>Name: {{human.name}}</p>
+					
+				</a>
+
+			<!-- 	<a href ng-click="openWithJSSpecificHeight(human.url)" id="js-height">Full info</a> -->
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<script src="js/angular.min.js"></script>
+<script type="text/javascript" src = "js/index.js"></script>
+<script src="js/ngDialog.js"></script>
+
+
+
+
+</body>
+</html>

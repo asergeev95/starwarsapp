@@ -1,0 +1,16 @@
+{
+  "name": "starwars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "^1.6.4",
+    "browser-sync": "^2.18.8",
+    "ng-dialog": "^1.0.1"
+  }
+}
