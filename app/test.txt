@@ -1,0 +1,32 @@
+<div class="ape_audio_item_wrap _ape_audio_item"><div class="ape_check"><div class="ape_check_icon"></div></div><div class="audio_row _audio_row _audio_row_18490413_456239572 canedit canadd hq ltb has_thumb no_actions inlined" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456239572,18490413,&quot;&quot;,&quot;Good Goodbye (feat. Pusha T and Stormzy)&quot;,&quot;Linkin Park&quot;,211,0,0,&quot;&quot;,0,98828,&quot;&quot;,&quot;[]&quot;,&quot;57326e05b87ea6e226/a5dd9b8853c2249858/408a16d9ccf167f5c5&quot;,&quot;https://pp.userapi.com/c837730/v837730453/4283a/OEqsPwLb0Ms.jpg,https://pp.userapi.com/c837730/v837730453/42838/p1kXPwC02XE.jpg&quot;]" data-full-id="18490413_456239572" id="audio_18490413_456239572">
+  <div class="audio_row_inner clear_fix">
+    <div class="audio_row_counter"></div>
+    <div class="audio_row_cover_wrap _audio_row_cover_wrap">
+      <div class="audio_row_cover" style="background-image: url(https://pp.userapi.com/c837730/v837730453/4283a/OEqsPwLb0Ms.jpg)"></div>
+      <div class="audio_row_cover_back"></div>
+      <div class="audio_row_cover_play_icon"></div>
+    </div>
+    <div class="audio_info">
+      <div class="audio_duration_wrap _audio_duration_wrap">
+        <div class="audio_hq_label"></div>
+        <div class="audio_duration _audio_duration">3:31</div>
+        <div class="audio_acts clear_fix">
+          <div class="audio_act" id="recom" onmouseover="audioShowActionTooltip(this)" onclick="currentAudioPage(this).showRecoms(this, '18490413_456239572', event)"></div>
+          <div class="audio_act" id="next" onmouseover="audioShowActionTooltip(this)" onclick="getAudioPlayer().setNext(this, event)"></div>
+          <div class="audio_act" id="edit" onmouseover="audioShowActionTooltip(this)" onclick="currentAudioPage(this).editAudio(this, '18490413_456239572', event)"></div>
+          <div class="audio_act _audio_act_delete" id="delete" onclick="currentAudioPage(this).deleteAudio(this, '18490413_456239572', event)" onmouseover="audioShowActionTooltip(this)"></div>
+          <div class="audio_act" id="add" onclick="return addAudio(this, event)" onmouseover="audioShowActionTooltip(this)"></div>
+          
+          
+        </div>
+      </div>
+      <div class="audio_title_wrap"><a href="/search?c[q]=Linkin%20Park&amp;c[section]=audio&amp;c[performer]=1" onmouseover="setTitle(this)" nodrag="1" onclick="return audioSearchPerformer(this, event)" class="audio_performer">Linkin Park</a><span class="audio_info_divider">–</span><span class="audio_title _audio_title" onmouseover="setTitle(this, domPN(this))" title="Good Goodbye (feat. Pusha T and Stormzy) "><span class="audio_title_inner" tabindex="0" nodrag="1" aria-label="Good Goodbye (feat. Pusha T and Stormzy)" onclick="return toggleAudioLyrics(event, this, '18490413_456239572', '0')">Good Goodbye (feat. Pusha T and Stormzy)</span>
+          
+          <span class="audio_author"></span>
+        </span></div>
+    </div>
+    <div class="_audio_player_wrap"></div>
+    <div class="_audio_lyrics_wrap audio_lyrics" data-nodrag="1"></div>
+  </div>
+  
+</div></div>
